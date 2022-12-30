@@ -22,6 +22,40 @@
             {
                 Console.WriteLine("Congrats! You guessed it");
             }
+
+            
+            
+            Console.WriteLine("What is you favorite school subject?");
+            string myfavSubject = Console.ReadLine();
+
+            switch(myfavSubject.ToLower())
+            {
+                case "language arts":
+                case "english":
+                    Console.WriteLine("english/language arts is my favorite too!");
+                    break;
+                case "mathematics":
+                case "math":
+                    Console.WriteLine("math is important!");
+                    break;
+                case "science":
+                    Console.WriteLine("science is fun!");
+                    break;
+                case "social studies":
+                case "history":
+                    Console.WriteLine("history taught in school is not always accurate though!");
+                    break;
+                case "art":
+                    Console.WriteLine("art is not for everybody");
+                    break;
+                default: Console.WriteLine("Hmm, I am not familiar with that subject.");
+                    break;
+
+            }
+                
+
+            
+         
             {
 
             }
